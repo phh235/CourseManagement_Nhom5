@@ -1,0 +1,1 @@
+package org.course.management.service;import org.course.management.entity.Topic;import java.util.List;public interface TopicService {    List<Topic> getAllTopic();    void doGetDeleteTopic(int topicId);    Topic doGetSaveTopic (Topic topic );}

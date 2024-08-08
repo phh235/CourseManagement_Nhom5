@@ -1,0 +1,1 @@
+package org.course.management.service;import org.course.management.entity.Mail;public interface MailService {    void sendMail(Mail mailModel) throws Exception;}

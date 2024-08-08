@@ -1,0 +1,1 @@
+package org.course.management.repository;import org.course.management.entity.CourseDetail;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface CourseDetailRepository extends JpaRepository<CourseDetail, Integer> {    CourseDetail findById(int id);}

@@ -1,0 +1,1 @@
+package org.course.management.service;import org.course.management.entity.Role;import org.springframework.stereotype.Service;import java.util.List;public interface RoleService {    List<Role> getAllRole();    Role doSaveRole(Role role);    List<Role> getByRoleName(String roleName);    void doGetDelete(int id);    List<Role> findByName(String roleName);}

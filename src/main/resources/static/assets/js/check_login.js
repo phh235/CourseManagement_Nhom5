@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function () {    let key = 'loggedInUser';    let value = localStorage.getItem(key);    if (value === null) {        window.location.href = '/account/dang-nhap';    }});

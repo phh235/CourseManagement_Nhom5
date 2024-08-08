@@ -1,0 +1,1 @@
+package org.course.management.service;import org.course.management.entity.CourseDetail;import java.util.List;public interface CourseDetailService {    List<CourseDetail> getAllCourseDetail();    void doGetDeleteByIdCourseDetail(int id);    CourseDetail doSaveCourseDetail(CourseDetail courseDetail);    CourseDetail findById(int id);}
